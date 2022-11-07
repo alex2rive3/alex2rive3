@@ -1,8 +1,8 @@
 ### 👋HOLA, SOY ALEX
 
-- 🔭Estoy interesado en Desarrollo Web y Javascript
+- 🔭Estoy interesado en el Desarrollo Web y Javascript
 - 🌱Actualmente estoy aprendiendo React JS
-- 🥅Objetivos para 2022: aprenda más sobre estructuras de datos y algoritmos
+- 🥅Objetivos para 2023: Seguir perfeccionando conocimientos del Desarrollo Web
 
 ### Idiomas y Herramientas:
 <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" width="35"/><img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg" width="35"/>
