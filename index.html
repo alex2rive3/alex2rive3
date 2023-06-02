@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[14px] sm:text-[16px]">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- ion icons link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Tailwind CSS CDN Link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Daisy Ui Links -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Alex Rolando Rivé</title>
+</head>
+
+<body style="font-family: Roboto, sans-serif;" class="bg-[#FFFFFF] text-[#454545]">
+  <!-- ********************************************** -->
+  <!-- Header Section -->
+  <!-- ********************************************** -->
+
+  <header class="bg-[#FFFFFF] max-w-screen-xl	mx-auto px-4 py-6">
+    <nav class="">
+      <ul style="font-family: 'Roboto Mono', monospace;" class="flex justify-around font-semibold">
+        <li class=""><a href="#skills" class="transition-all hover:text-[#5616c5]">Skills</a></li>
+        <li class=""><a href="#projects" class="transition-all hover:text-[#5616c5]">Proyectos</a></li>
+        <li class=""><a href="#contact" class="transition-all hover:text-[#5616c5]">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- ********************************************** -->
+  <!-- Alex Section -->
+  <!-- ********************************************** -->
+
+  <section
+    class="flex flex-col-reverse sm:flex-row sm:justify-between	 lg:min-h-screen bg-[#FFFFFF] px-8 sm:px-16 py-4 max-w-screen-xl	mx-auto">
+    <!-- left side -->
+    <div class="sm:w-3/5 flex flex-col justify-center ">
+      <p style="font-family: 'Roboto Mono', monospace;" class="text-[#5616c5] font-semibold">👋 Hola, mi nombre es </p>
+      <h2 class="text-4xl lg:text-5xl xl:text-6xl	font-bold text-[#454545] mt-3 lg:mt-7">ALEX RIVÉ</h2>
+      <h2 class="text-3xl lg:text-4xl xl:text-5xl	font-bold text-[#5616c5] mt-3 lg:mt-7">Full-Stack Developer.</h2>
+      <p class="mt-6 lg:mt-10 max-w-md	text-[#454545]">
+        Desarrollador web con experiencia en diseño y creación de soluciones digitales. Apasionado por la programación y
+        comprometido en brindar soluciones innovadoras y eficientes.
+      </p>
+      <!--Modificar para que descargue Mi CV -->
+      <div class="mt-12">
+        <a href="./CV/AlexRivé_CV.pdf" download style="font-family: 'Roboto Mono', monospace;"
+          class="px-6 py-3 text-[#5616c5] border-2 border-[#5616c5] font-bold transition-all hover:bg-[#22084e] hover:text-[#FFFFFF] rounded-md">Descargar
+          CV</a>
+      </div>
+      <!-- social Links -->
+      <div class="mt-12">
+        <ul class="flex gap-4">
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://www.linkedin.com/in/alex2rive3/" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#5616c5]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://github.com/alex2rive3" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#5616c5]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="mailto: alex2rive3@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#5616c5]"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- right side -->
+    <div class="hidden sm:block sm:w-2/5">
+      <img src="./images/Alex_Img.png" alt="Foto de Alex" class="">
+    </div>
+  </section>
+
+  <!-- ********************************************** -->
+  <!-- tech stack Section -->
+  <!-- ********************************************** -->
+
+  <section class="bg-[#FFFFFF] px-8 sm:px-16 py-16 max-w-screen-xl mx-auto" id="skills">
+    <div class="">
+      <div class="flex justify-center items-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold">Tech Stack</h2>
+        <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
+      </div>
+
+      <!-- skills -->
+      <div class="grid grid-cols-3  sm:grid-cols-5 gap-12" style="font-family: 'Roboto Mono', monospace;">
+
+        <!-- Skill 01 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-html-5-96.svg" alt="html icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 02 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 03 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 04 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-react-80.svg" alt="javascript icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 05 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-nodejs.svg" alt="git icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 05 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-express.svg" alt="git icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 06 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-python.svg" alt="git icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 05 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-mysql.svg" alt="git icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 05 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-mongodb.svg" alt="git icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 05 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-postman.svg" alt="git icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 05 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-git-96.svg" alt="git icon" class="w-24 h-24">
+        </div>
+        <!-- Skill 05 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-github.svg" alt="git icon" class="w-24 h-24">
+        </div>
+      </div>
+  </section>
+
+  <!-- ****************************************** -->
+  <!-- Some Things I’ve Built Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#FFFFFF] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="projects">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold text-center">Algunas cosas que he construido</h2>
+      <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
+    </div>
+
+    <!-- featured projects -->
+    <div>
+
+      <!-- featured project 01 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/Admin-QRIDE.png" alt="Panel de Administrador " class="">
+            </div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+          <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">01. QRIDE
+          </h2>
+          <p
+            class="bg-[#1d232a] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#a6adba]">
+            Proyecto de eliminación de tickets de descuentos de pasajes de autobús mediante códigos QR, simplificando el
+            proceso de preparación y mejorando la eficiencia en la experiencia de los pasajeros. <br>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>MONGODB</li>
+              <li>EXPRESS</li>
+              <li>REACT</li>
+              <li>NODE</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+            <a href="https://github.com/alex2rive3/ProyectoQr" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#5616c5]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 02 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">02. Calc. de
+            Hidratacion Basal
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            Esta Calculadora estima la hidratación basal necesaria para pacientes basándose en su peso. Una herramienta
+            eficiente y precisa en el cálculo de requerimientos hídricos. <br>
+            <span class="text-[#5616c5] font-medium">Este sitio es completamente responsive.</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JAVASCRIPT</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/alex2rive3/CalcHidratacionBasal" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#5616c5]"></ion-icon>
+            </a>
+            <a href="https://alex2rive3.github.io/CalcHidratacionBasal/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#5616c5]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/calcHidratacionBasal.png" alt="Sitio Web para calcular la hidratacion basal" class="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 03 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none	">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/Abm_Stok.png" alt="shopify clone">
+            </div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">03. Gestor de Stok
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+            Proyecto de gestión de stock y administración de productos, usuarios y proveedores. Permite realizar altas,
+            bajas y modificaciones de forma eficiente y centralizada, optimizando la operación y facilitando el control
+            de inventario en tiempo real.
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JAVASCRIPT</li>
+              <li>PHP</li>
+              <li>MYSQL</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+            <a href="https://github.com/alex2rive3/ABM-de-productos" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#5616c5]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 04 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">04. API REST</h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            API REST desarrollada con base de datos ficticia utilizando jsonPlaceholder. Incluye documentación
+            automática generada con Swagger para facilitar la comprensión y el uso de los endpoints.
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>NODE</li>
+              <li>EXPRESS</li>
+              <li>SWAGGER</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/alex2rive3/TestApi" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#5616c5]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/APIREST.jpeg" alt="API REST">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ****************************************** -->
+  <!--CONTACT ME FORM-->
+  <!-- ****************************************** -->
+  <section class="bg-[#FFFFFF] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="contact">
+    <div class="flex items-center  justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold ">CONTACTAME</h2>
+      <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
+    </div>
+    <div class="form-container max-w-screen-sm mx-auto">
+      <form id="contact-form" class="space-y-4">
+        <div>
+          <label for="name" class="block mb-1">Nombre:</label>
+          <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded px-4 py-2">
+        </div>
+        <div>
+          <label for="email" class="block mb-1">Correo:</label>
+          <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded px-4 py-2">
+        </div>
+        <div>
+          <label for="message" class="block mb-1">Mensaje:</label>
+          <textarea id="message" name="message" class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Enviar</button>
+        </div>
+      </form>
+    </div>
+    <!--***********************************-->
+    <!--CONTACT BUTTONS-->
+    <!--***********************************-->
+    <div class="mt-12 flex justify-center">
+      <ul class="flex gap-4">
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.linkedin.com/in/alex2rive3/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#5616c5]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="mailto: alex2rive3@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#5616c5]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://github.com/alex2rive3" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#5616c5]"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+
+</html>
