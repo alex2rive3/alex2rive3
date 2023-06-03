@@ -1,18 +1,3 @@
-/* ******************************** */
-/* Default Properties */
-/* ******************************** */
-
-/* --- 01 Fonts
-  - font-family: 'Roboto Slab', serif; 
-*/
-
-/* --- 02 COLORS
-
-  text-primary-colors: #3cba54 and shades of it
-  Primary:  #1877F2 
-  
-*/
-
 html {
   scroll-behavior: smooth;
 }
@@ -23,7 +8,7 @@ html {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 8px;
 }
 
 /* Track */
@@ -65,7 +50,6 @@ html {
 .featured-project-img-01::before {
   content: "";
   width: 100%;
-  /* height: 100%; */
   display: block;
 
   position: absolute;
@@ -78,17 +62,10 @@ html {
     rgba(2, 22, 49, 0.5),
     rgba(2, 22, 48, 0.5)
   );
-
-  /* background-image: linear-gradient(
-    to bottom,
-    rgba(25, 254, 67, 0.1),
-    rgba(25, 254, 67, 0.1)
-  ); */
   transition: width 1s ease-in-out;
 }
 
 .featured-project-img-01:hover:before {
-  /* height: 0%; */
   width: 0%;
 }
 
@@ -104,49 +81,9 @@ html {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-
-/* ************************************** */
-/* mentions projects */
-/* ************************************** */
-
-.mentions-project:hover .mentions-project-img {
-  display: none;
-}
-.mentions-project:hover .mentions-project-div {
-  display: block;
-}
-
-.mentions-project {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(25, 254, 67, 0),
-    rgba(25, 254, 67, 0)
-  );
-
-  transition: background-image 0.5s;
-
-  position: relative;
-}
-
-.mentions-project::after {
-  content: "";
-
-  display: block;
-
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-
-  background-image: linear-gradient(
-    to bottom,
-    rgba(2, 22, 49, 0.5),
-    rgba(2, 22, 48, 0.5)
-  );
-  transition: width 1s ease-in-out;
-}
-
-.mentions-project:hover:after {
-  /* height: 0%; */
-  width: 0%;
+@media (max-width:640px){
+  .xsm-aling-center{
+    align-items: center;
+    text-align: center;
+  }
 }
