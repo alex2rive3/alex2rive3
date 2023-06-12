@@ -22,7 +22,6 @@
   <meta name="keywords"
     content="desarrollador web, desarrollador fullstack, portfolio, proyectos, habilidades, desarrollo web, HTML, Tailwind, JavaScript, programación, innovación, eficiencia, colaboración">
   <meta name="author" content="Alex Rivé" />
-
   <meta name="copyright" content="Alex Rivé" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -43,6 +42,7 @@
 
   <!-- Daisy Ui Links -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Stylesheets -->
@@ -74,7 +74,7 @@
   <!-- ********************************************** -->
 
   <section
-    class="flex flex-col-reverse sm:flex-row sm:justify-between	 lg:min-h-screen bg-[#FFFFFF] px-10 sm:px-16 py-4 max-w-screen-xl	mx-auto"
+    class="flex flex-col-reverse sm:flex-row sm:justify-between	md:min-h-screen ms:min-h-screen lg:min-h-screen bg-[#FFFFFF] px-7 sm:px-14 py-12 max-w-screen-lg items-center	mx-auto"
     id="aboutMe">
     <!-- left side -->
     <div class="sm:w-3/5 flex flex-col justify-center xsm-aling-center">
@@ -84,7 +84,6 @@
       <p class="mt-6 lg:mt-10 max-w-md font-semibold	text-[#454545]">"De vez en cuando, una nueva tecnología, un antiguo
         problema y una gran idea se convierten en una innovación."
         Dean Kamen</p>
-      <!--Modificar para que descargue Mi CV -->
       <div class="mt-12">
         <a href="./CV/AlexRivé_CV.pdf" download style="font-family: 'Roboto Mono', monospace;"
           class="px-6 py-3 text-[#5616c5] border-2 border-[#5616c5] font-bold transition-all hover:bg-[#22084e] hover:text-[#FFFFFF] rounded-md">Descargar
@@ -113,8 +112,8 @@
     </div>
 
     <!-- right side -->
-    <div class="hidden sm:block sm:w-2/5">
-      <img src="./images/Alex_Img.png" alt="Foto de Alex" class="">
+    <div class="">
+      <img src="./images/Alex_Img.png" alt="Foto de Alex" class="xsm-photo">
     </div>
   </section>
 
@@ -122,7 +121,7 @@
   <!-- Some Things I’ve Built Section -->
   <!-- ****************************************** -->
 
-  <section class="bg-[#FFFFFF] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="projects">
+  <section class="bg-[#FFFFFF] px-7 sm:px-14 py-12 max-w-screen-xl mx-auto" id="projects">
     <div class="flex items-center justify-center gap-12 pb-12">
       <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
       <h2 class="text-4xl font-bold text-center">Algunas cosas que he construido</h2>
@@ -136,16 +135,16 @@
       <div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
 
         <!-- left side -->
-        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
-          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+        <div class="mockup-window border border-base-300 sm:w-1/2 order-2	sm:order-none h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll rounded h-[300px]">
             <div class="featured-project-img-01  transition-all	duration-500  ">
-              <img src="./images/Admin-QRIDE.png" alt="Panel de Administrador " class="h-[300px] object-contain">
+              <img src="./images/Admin-QRIDE.png" alt="Panel de Administrador " class="object-contain h-[300px]">
             </div>
           </div>
         </div>
 
         <!-- right side -->
-        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+        <div class="sm:w-1/2 flex flex-col justify-center order-1 sm:order-none h-[300px]">
           <h2 class="sm:text-end text-3xl font-bold mb-10 sm:relative sm:right-[10%] lg:right-1/4">01. QRIDE
           </h2>
           <p
@@ -174,7 +173,7 @@
       <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
 
         <!-- right side -->
-        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center ">
+        <div class="sm:w-1/2 flex flex-col justify-center h-[300px]">
           <h2 class=" text-3xl font-bold mb-10 sm:relative sm:left-[10%] lg:left-1/4">02. Calc. de
             Hidratacion Basal
           </h2>
@@ -202,10 +201,10 @@
 
         <!-- left side -->
         <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
-          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll rounded h-[300px]">
             <div class="featured-project-img-01  transition-all	duration-500  ">
               <img src="./images/calcHidratacionBasal.png" alt="Sitio Web para calcular la hidratacion basal"
-                class="h-[300px] object-contain">
+                class="object-contain h-[300px]">
             </div>
           </div>
         </div>
@@ -216,8 +215,8 @@
       <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
 
         <!-- left side -->
-        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none	">
-          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+        <div class="mockup-window border border-base-300 sm:w-1/2 order-2 sm:order-none	h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll rounded h-[300px]">
             <div class="featured-project-img-01  transition-all	duration-500  ">
               <img src="./images/Abm_Stok.png" alt="Abm stock" class="h-[300px] object-contain">
             </div>
@@ -225,7 +224,7 @@
         </div>
 
         <!-- right side -->
-        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+        <div class="sm:w-1/2 flex flex-col justify-center h-[300px]">
           <h2 class="sm:text-end text-3xl font-bold mb-10 sm:relative sm:right-[10%] lg:right-1/4">03. Gestor de Stock
           </h2>
           <p
@@ -256,7 +255,7 @@
       <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
 
         <!-- right side -->
-        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+        <div class="sm:w-1/2 flex flex-col justify-center h-[300px]">
           <h2 class=" text-3xl font-bold mb-10 sm:relative sm:left-[10%] lg:left-1/4">04. API REST</h2>
           <p
             class="bg-[#1d232a] pl-10 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#a6adba]">
@@ -279,7 +278,7 @@
 
         <!-- left side -->
         <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
-          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll rounded h-[300px]">
             <div class="featured-project-img-01  transition-all	duration-500  ">
               <img src="./images/APIREST.jpeg" alt="API REST" class="h-[300px] object-contain">
             </div>
@@ -292,7 +291,7 @@
   <!-- HABILIDADES Section -->
   <!-- ********************************************** -->
 
-  <section class="bg-[#FFFFFF] px-10 sm:px-16 py-16 max-w-screen-xl mx-auto" id="skills">
+  <section class="bg-[#FFFFFF] px-10 sm:px-16 py-12 max-w-screen-xl mx-auto" id="skills">
     <div class="">
       <div class="flex justify-center items-center gap-12 pb-12">
         <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
@@ -349,7 +348,7 @@
   <!-- ****************************************** -->
   <!--CONTACT ME FORM-->
   <!-- ****************************************** -->
-  <section class="bg-[#FFFFFF] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="contact">
+  <section class="bg-[#FFFFFF] px-7 sm:px-14 py-12 max-w-screen-xl mx-auto" id="contact">
     <div class="flex items-center  justify-center gap-12 pb-12">
       <div class="h-px flex-1 bg-[#5616c5] hidden sm:block"></div>
       <h2 class="text-4xl font-bold ">CONTACTAME</h2>
