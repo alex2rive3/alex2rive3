@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Estudiante de la carrera Licenciatura en Análisis de Sistemas Informáticos, Desarrollador Full Stack MERN y Tec. Sup. En Programación de Computadoras con manejo de lenguajes de programación tales como HTML, CSS, JS, PHP, React, Express, Node, RoR, Python, SQL, Bases de datos MySql, Postgres y Mongodb, así también control de versiones con Git Y GitHub. Durante mi experiencia he desarrollado habilidades como trabajo en equipo, resolución de problemas y orientación al cliente, lo cual me permite desempeñarme de manera muy eficaz. Estoy interesado en desarrollar mi carrera en el área de it, ya sea como desarrollador frontend y/o backend. Mi inspiración es lograr transmitir la pasión por la programación en todo lo que me toque desarrollar.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex2rive3/alex2rive3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex2rive3/alex2rive3/issues"
+  },
+  "homepage": "https://github.com/alex2rive3/alex2rive3#readme",
+  "dependencies": {
+    "daisyui": "^3.1.0",
+    "tailwindcss": "^3.3.2"
+  }
+}

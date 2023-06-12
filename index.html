@@ -37,16 +37,10 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <!-- Tailwind CSS CDN Link -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Daisy Ui Links -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
-
-  <script src="https://cdn.tailwindcss.com"></script>
-
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./styles/style.css">
+  <link href="/styles/output.css" rel="stylesheet">
+
   <!--Scripts-->
   <script src="./script.js" defer></script>
   <title>Alex Rivé</title>
@@ -358,21 +352,23 @@
       <form id="contact-form" class="space-y-4" action="https://formsubmit.co/alex2rive3@gmail.com" method="POST">
         <div>
           <label for="name" class=" text-base font-semibold block mb-1">Nombre:</label>
-          <input required type="text" id="name" name="name" class="w-full border border-gray-300 rounded px-4 py-2">
+          <input required type="text" id="name" name="name"
+            class="w-full border border-gray-300 bg-[#fff] text-[#000] rounded px-4 py-2">
         </div>
         <div>
-          <label for="email" class="text-base font-semibold block mb-1">Correo:</label>
-          <input required type="email" id="email" name="email" class="w-full border border-gray-300 rounded px-4 py-2">
+          <label for="email" class="text-base font-semibold block mb-1 ">Correo:</label>
+          <input required type="email" id="email" name="email"
+            class="w-full bg-[#fff] text-[#000] border  border-gray-300 rounded px-4 py-2">
         </div>
         <div>
           <label for="subject" class=" text-base font-semibold block mb-1">Asunto:</label>
           <input required type="text" id="subject" name="subject"
-            class="w-full border border-gray-300 rounded px-4 py-2">
+            class="w-full border border-gray-300 bg-[#fff] text-[#000] rounded px-4 py-2">
         </div>
         <div>
           <label for="message" class=" text-base font-semibold block mb-1">Mensaje:</label>
           <textarea required id="message" name="message"
-            class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
+            class="w-full border border-gray-300 bg-[#fff] text-[#000] rounded px-4 py-2"></textarea>
         </div>
         <div>
           <button type="submit" name="send" id="send"
